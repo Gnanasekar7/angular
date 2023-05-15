@@ -49,7 +49,6 @@ import { Component, EventEmitter, Input, Output } from '@angular/core';
 <h2>{{5.678 | number:'3.4-5'}}</h2>
 
 </div>
-  </div>
   `
   ,
   
@@ -93,4 +92,5 @@ export class TestComponent {
    }
    //pipes
    public morning="good morning"
+
 }
